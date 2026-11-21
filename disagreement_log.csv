@@ -1,0 +1,63 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.06,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.07,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D01.png,face,eye_left,khác giá trị (IoU=0.92),closed,open,ambiguous,4.5 + 4.4-1,Cùng xem trên CVAT: thấy khe mắt → open; thấy rõ hai mí khép → closed; phản xạ/che → unknown
+D01.png,face,eye_right,khác giá trị (IoU=0.92),closed,open,ambiguous,4.5 + 4.4-1,Cùng xem trên CVAT: thấy khe mắt → open; thấy rõ hai mí khép → closed; phản xạ/che → unknown
+D01.png,face,gaze_zone,khác giá trị (IoU=0.92),other,center,ambiguous,4.5 (gaze_zone),Cùng xem hướng mắt + đầu; mine chọn other thì phải ghi lý do
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D01.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+D02.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.30,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.16,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.79),other,lap,ambiguous,4.5 (gaze_zone),Cùng xem hướng mắt + đầu; mine chọn other thì phải ghi lý do
+D02.png,face,glasses,khác giá trị (IoU=0.79),clear,none,ambiguous,4.5 (glasses),Kính râm trên NIR có thể trông trong suốt; kính cầm trên tay = none; không chắc → unknown
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D02.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.3-3,Mine: thêm person seat=driver
+D02.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+D03.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.18,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.18,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D03.png,face,eye_right,khác giá trị (IoU=0.66),open,unknown,ambiguous,4.5 + 4.4-1,Cùng xem trên CVAT: thấy khe mắt → open; thấy rõ hai mí khép → closed; phản xạ/che → unknown
+D03.png,face,gaze_zone,khác giá trị (IoU=0.66),other,center,ambiguous,4.5 (gaze_zone),Cùng xem hướng mắt + đầu; mine chọn other thì phải ghi lý do
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D03.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+D04.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,ambiguous,4.7 + 4.4-5,"Mine side=left (box ôm cả cẳng tay), peer side=right: xem lại trên CVAT là tay nào, rồi vẽ box sát bàn tay"
+D04.png,face,gaze_zone,khác giá trị (IoU=0.69),road,center,ambiguous,4.5 (gaze_zone),Cùng xem hướng mắt + đầu; mine chọn other thì phải ghi lý do
+D04.png,face,glasses,khác giá trị (IoU=0.69),clear,sun,ambiguous,4.5 (glasses),Kính râm trên NIR có thể trông trong suốt; kính cầm trên tay = none; không chắc → unknown
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,4.7 + 4.4-5,"Mine side=left (box ôm cả cẳng tay), peer side=right: xem lại trên CVAT là tay nào, rồi vẽ box sát bàn tay"
+D04.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+D05.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.15,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.07,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D05.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.49,,ambiguous,4.1 + 4.4-5,"Box face hai bên lệch (IoU 0.49): cùng xem trán→cằm, tai→tai"
+D05.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,4.1 + 4.4-5,"Box face hai bên lệch (IoU 0.49): cùng xem trán→cằm, tai→tai"
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D05.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+D06.png,frame_meta,light,khác giá trị,night,unknown,peer,4.4-1,Mine: đổi light night→unknown
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.15,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.20,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D06.png,face,eye_left,khác giá trị (IoU=0.73),closed,unknown,ambiguous,4.5 + 4.4-1,Cùng xem trên CVAT: thấy khe mắt → open; thấy rõ hai mí khép → closed; phản xạ/che → unknown
+D06.png,face,eye_right,khác giá trị (IoU=0.73),closed,unknown,ambiguous,4.5 + 4.4-1,Cùng xem trên CVAT: thấy khe mắt → open; thấy rõ hai mí khép → closed; phản xạ/che → unknown
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.1 + 4.4-5,"Mine: vẽ lại hand từ đầu ngón đến cổ tay (box cũ rộng 300–750 px, ôm cả cẳng tay)"
+D06.png,face13,count,khác số skeleton,0,1,peer,4.3-3 + 4.6,"Mine: thêm face13 (mặt rộng ≥ 280 px, trên ngưỡng 60 px)"
+S01_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.95),unknown,yes,peer,4.8 + label mới (yes = ghế có người ngồi),"Mine: đổi unknown→yes (S01_ir của mình đã là yes, ghế có người)"
+S01_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
+S02_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 + 4.4-4,"Peer: _ir cùng cảnh có box này; chỉnh brightness trên CVAT, thấy hình dạng thì thêm box vào _rgb"
+S03_ir.png,child_seat,occupied,khác giá trị (IoU=0.88),unknown,yes,peer,4.8 + label mới (yes = ghế có người ngồi),Mine: đổi unknown→yes (S03_rgb của mình đã là yes)
+S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,unknown,mine,4.8 + label mới (yes = ghế có người ngồi),"Peer: đổi unknown→no (S04_rgb của peer là no, ghế trống); nếu trên IR thật sự không thấy bên trong thì giữ unknown"
+S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 + 4.4-4,"Peer: S05_rgb đang trống hoàn toàn, chỉnh brightness rồi thêm như S05_ir"
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 + 4.4-4,"Peer: _ir cùng cảnh có box này; chỉnh brightness trên CVAT, thấy hình dạng thì thêm box vào _rgb"
+S07_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
+S07_rgb.png,child_seat,occupied,khác giá trị (IoU=0.73),yes,unknown,mine,4.8 + label mới (yes = ghế có người ngồi),"Peer: đổi unknown→yes, và vẽ lại box child_seat cho khớp S07_ir"
+S07_rgb.png,person,seatbelt,khác giá trị (IoU=0.97),not_worn,unknown,ambiguous,4.7,SVIRO: chỉ not_worn/unknown; vùng ngực tối → unknown
+S07_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
+S08_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.2 (OMS: person kèm box face),Mine: thêm box face cho người lớn
